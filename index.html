@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>D Murli Kishan - DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <h1>D Murli Kishan</h1>
-    <nav>
-        <a href="#about">About</a>
-         <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-    </nav>
-</header>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        Hello! My name is Murli. I am learning web development and aiming to become a DevOps engineer.
-    </p>
-</section>
-
-
-<section id="projects">
-    <h2>My Projects</h2>
-    
-    <div>
-        <h3>Portfolio Website</h3>
-        <p>This is my first portfolio website using HTML.</p>
-    </div>
-
-    <div>
-        <h3>Landing Page</h3>
-        <p>A simple landing page design project.</p>
-    </div>
-</section>
-
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: murlikishan8@gmail.com</p>
-</section>
-
-<footer>
-    <p>(c) 2026 Murli Kishan</p>
-</footer>
-
-
 <body>
-    
+    <header>
+        <h1>D Murli Kishan</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Murli. I'm a self-taught DevOps engineer transitioning from customer support at Jio. 
+            I'm learning cloud infrastructure, containerization, and infrastructure as code to build scalable systems.
+        </p>
+        <p>
+            <strong>Email:</strong> dmurli200014@gmail.com | <strong>Phone:</strong> +91 7992508775 | <strong>GitHub:</strong> <a href="https://github.com/murlikishan8-create" target="_blank">github.com/murlikishan8-create</a>
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Infrastructure as Code:Terraform, CloudFormation, Ansible</p>
+        <p>Containerization & Orchestration:Docker,Kubernetes</p>
+        <p>CI/CD & Deployment: Jenkins, GitHub Actions, Argo CD</p>
+        <p>Monitoring & Logging: Prometheus, Grafana, CloudWatch</p>
+        <p>Version Control: Git</p>
+        <p>Programming & Scripting: Python,Shell Scripting</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        
+        <div class="project-card">
+            <h3>AWS 3-Tier Web Application</h3>
+            <p>Highly available web application with EC2 across multiple AZs, RDS multi-AZ failover, ALB, and VPC with public/private subnets.</p>
+            <p><strong>Tech:</strong> AWS, Terraform, EC2, RDS, ALB, VPC | <a href="https://github.com/murlikishan8-create/aws-3tier-webapp" target="_blank">GitHub →</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>AWS Serverless Contact Form</h3>
+            <p>Serverless application using Lambda, API Gateway, DynamoDB for storage, SES for emails, and S3 for frontend hosting.</p>
+            <p><strong>Tech:</strong> Lambda, API Gateway, DynamoDB, S3, SES | <a href="https://github.com/murlikishan8-create/aws-serverless-contact-form" target="_blank">GitHub →</a></p>
+        </div>
+
+        <div class="project-card">
+            <h3>Docker & Kubernetes Learning</h3>
+            <p>Hands-on containerization and orchestration with Dockerfiles, docker-compose setup, and Kubernetes manifests.</p>
+            <p><strong>Tech:</strong> Docker, Kubernetes, YAML | <a href="https://github.com/murlikishan8-create/docker-testapp" target="_blank">GitHub →</a></p>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications & Training</h2>
+        <p>✓ AWS Certified Cloud Practitioner | ✓ Getting Started with DevOps on AWS | ✓ GitOps for Amazon EKS Automation</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>I'm interested in DevOps and Cloud Engineering opportunities.</p>
+        <p>
+            <a href="mailto:dmurli200014@gmail.com">Email</a> | 
+            <a href="https://github.com/murlikishan8-create" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 D Murli Kishan</p>
+    </footer>
 </body>
 </html>
